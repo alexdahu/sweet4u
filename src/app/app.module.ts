@@ -17,6 +17,7 @@ import { NotreBlogComponent } from './notre-blog/notre-blog.component';
 import { NousContacterComponent } from './nous-contacter/nous-contacter.component';
 import { BurgerMenuComponent } from './burger-menu/burger-menu.component';
 import { MenuMainComponent } from './menu-main/menu-main.component';
+import { BlocHomeComponent } from './bloc-home/bloc-home.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { MenuMainComponent } from './menu-main/menu-main.component';
     NousContacterComponent,
     BurgerMenuComponent,
     MenuMainComponent,
+    BlocHomeComponent,
   ],
   imports: [
     BrowserModule,

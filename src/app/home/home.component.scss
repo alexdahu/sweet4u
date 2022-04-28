@@ -1,0 +1,16 @@
+/*
+*
+*Page home
+*
+ */
+
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/fond-gouttes.png");
+  background-color: #FFCE71;
+}
+
+
+@import "home-responsive";

@@ -1,10 +1,16 @@
-<header class="headerMain">
-  <a [routerLink]="['/home']">
-    <figure class="headerMain__logo">
-      <img src="{{ logoImg }}" alt="logo de la crèche sweet4u" loading="lazy">
-    </figure>
-  </a>
-  <app-burger-menu></app-burger-menu>
-  <app-menu-main></app-menu-main>
 
-</header>
+
+<button type="button" aria-label="ouverture menu burger" class="btn-burger btn" (click)="onClickButtonToggle()"><img src="../../assets/images/svg/menu-burger.svg" alt=""></button>
+<nav app-burger-menu [class]="burgerClasses"  (classEmitter)="receiveClass('menuBurger')" ></nav><!--*ngIf="openCloseBurgerMenu"-->
+<a [routerLink]="['/home']">
+  <figure class="headerMain__logo">
+    <img [src]="logoImg" alt="logo de la crèche sweet4u" loading="lazy">
+  </figure>
+</a>
+
+<nav app-menu-main class="menuMain"></nav>
+
+
+
+
+

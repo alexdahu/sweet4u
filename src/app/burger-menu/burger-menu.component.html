@@ -1,22 +1,27 @@
-<nav class="menuBurger">
-    <ul class="menuBurger__leftNav">
-      <li class="menuBurger__nav__item">
-        <ul class="subMenu"><a [routerLink]="['/philosophie']" class="menu__nav__item__link">Notre Philosophie</a>
-
-          <li class="subMenu__item"><a [routerLink]="['/fondatrices']" class="subMenu__item__link">Les fondatrices</a> </li>
-          <li class="subMenu__item"><a [routerLink]="['/projet-pedagogique']" class="subMenu__item__link">Projet pédagogique</a> </li>
-        </ul>
-      </li>
-      <li class="menuBurger__nav__item"><a [routerLink]="['/nos-creches']" class="menu__nav__item__link">Nos crèches</a></li>
-      <li class="menuBurger__nav__item"><a [routerLink]="['/nos-ateliers']" class="menu__nav__item__link">Nos ateliers</a></li>
-    </ul>
-    <ul class="menuBurger__rightNav">
-      <li class="menuBurger__nav__item"><a [routerLink]="['/notre-conciergerie']" class="menu__nav__item__link">Notre Conciergerie</a></li>
-      <li class="menuBurger__nav__item"><a [routerLink]="['/notre-blog']" class="menu__nav__item__link">Notre Blog</a></li>
-      <li class="menuBurger__nav__item"><a [routerLink]="['/nous-contacter']" class="menu__nav__item__link">Nous contacter</a></li>
-    </ul>
-  </nav>
 
 
 
-  
+<button type="button" id="closeMenuburger" aria-label="fermeture menu burger" class="btn-burger btn" (click)="onClickButtonClose()" >
+  <img src="../../assets/images/svg/close.svg" alt="">
+</button>
+<ul class="menuBurger__nav">
+  <li class="menuBurger__nav__item">
+    <a [routerLink]="['/philosophie']" class="menuBurger__nav__item__link">Notre Philosophie</a></li>
+  <li class="menuBurger__nav__item">
+    <a [routerLink]="['/fondatrices']" class="menuBurger__nav__item__link">Les fondatrices</a> </li>
+  <li class="menuBurger__nav__item">
+    <a [routerLink]="['/projet-pedagogique']" class="menuBurger__nav__item__link">Projet pédagogique</a> </li>
+  <li class="menuBurger__nav__item">
+    <a [routerLink]="['/nos-creches']" class="menuBurger__nav__item__link">Nos crèches</a></li>
+  <li class="menuBurger__nav__item">
+    <a [routerLink]="['/nos-ateliers']" class="menuBurger__nav__item__link">Nos ateliers</a></li>
+  <li class="menuBurger__nav__item">
+    <a [routerLink]="['/notre-conciergerie']" class="menuBurger__nav__item__link">Notre Conciergerie</a></li>
+  <li class="menuBurger__nav__item">
+    <a [routerLink]="['/notre-blog']" class="menuBurger__nav__item__link">Notre Blog</a></li>
+  <li class="menuBurger__nav__item">
+    <a [routerLink]="['/nous-contacter']" class="menuBurger__nav__item__link">Nous contacter</a></li>
+</ul>
+
+
+

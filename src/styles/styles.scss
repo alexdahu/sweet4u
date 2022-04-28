@@ -1,13 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+ *
+ *
+ --------------------Styles généraux-------------------
+ *
+ *
+ */
+
+//scss imports
 @import'../../node_modules/normalize.scss/normalize.scss';
+
+
+//Scss général
+
+
+html{
+  height: 100%;
+}
 
 body{
   width: 100%;
   height: 100%;
+  display: grid;
+  grid-template: 25px 1fr 25px / 25px 1fr 25px  ;
 }
+
+button{
+  border: none;
+  background-color: transparent;
+}
+
+figure{
+  margin: 0;
+}
+
+
 .general-wrapper{
-  max-width: 285px;
-  margin-left: auto;
-  margin-right: auto;
+  grid-row: 2;
+  grid-column: 2;
+  max-width: 100%;
   background-color: #fff;
 }
+
+
+
+//importation responsive styles
+@import "styles-responsive";
+
+//importation variable couleur :
+@import "colors";
+
+//
+@import "mixins";
+
+@import "functionSass";

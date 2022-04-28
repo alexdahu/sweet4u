@@ -1,12 +1,56 @@
-@import'../../styles/styles.scss';
+/*
+*Component Header
+*
+*/
 
 
 
-.headerMain{
-  .headerMain__logo{
-    img{
-      width: 94px;
-      height: 67px;
+@import "../../styles/colors";
+
+.headerMain {
+  //position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 95px;
+  background-color: $white-transparent-85percent;
+
+  .btn-burger {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    width: 40px;
+    height: 40px;
+
+    img {
+      width: 100%;
+      height: 100%;
     }
   }
+
+  .headerMain__logo {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+    img {
+      width: 104px;
+      height: 77px;
+    }
+  }
+
+
+  .menuBurger {
+    display: none;
+    &.--openned{
+      display: block;
+    }
+  }
+
+
+
+
+  .menuMain {
+    display: none;
+  }
 }
+

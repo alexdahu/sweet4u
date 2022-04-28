@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fondatrices.component.scss']
 })
 export class FondatricesComponent implements OnInit {
+  classname = "nouvelleClasse";
 
   constructor() { }
 
