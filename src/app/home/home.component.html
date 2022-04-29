@@ -1,11 +1,18 @@
-
-
 <div class="home-container">
 
-<header app-header class="headerMain"></header>
+  <header app-header class="headerMain"></header>
 
-  <section app-bloc-home class="info-container" jumbotronText="One" ></section>
-  <section app-bloc-home class="info-container"></section>
+  <section app-bloc-home class="bloc-home">
+    <span home-enfant class="homeTitle__part1">Un cocon</span>
+    <span home-enfant class="homeTitle__part2">de bienveillance pour</span>
+    <span home-enfant class="homeTitle__part3">les enfants</span>
+    <a home-enfant-link [routerLink]="['/philosophie']" class="link">En savoir plus</a>
+  </section>
+  <section app-bloc-home class="bloc-home">
+    <span home-adulte class="homeTitle__part1">Une source</span>
+    <span home-adulte class="homeTitle__part2">de quiétude pour</span>
+    <span home-adulte class="homeTitle__part3"> les parents</span>
+    <a home-adulte-link [routerLink]="['/notre-conciergerie']" class="link">En savoir plus</a>
+  </section>
 
 </div>
-s

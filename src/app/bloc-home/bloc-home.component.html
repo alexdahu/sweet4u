@@ -1,3 +1,16 @@
+<div class="bloc-home-deco"></div>
+<div class="bloc-home-img-container">
+
+</div>
+
+<div class="bloc-home-img-container"></div>
+
 <h2 class="homeTitle">
-  <span>{{titreEntreeEnfant1}} </span><span>{{titreEntreeEnfant2}}</span><span>{{titreEntreeEnfant3}}</span>
+  <ng-content select="[home-enfant]" ></ng-content>
+  <ng-content select="[home-adulte]" ></ng-content>
 </h2>
+
+<div class="bloc-home-link">
+  <ng-content select="[home-enfant-link]" ></ng-content>
+  <ng-content select="[home-adulte-link]" ></ng-content>
+</div>

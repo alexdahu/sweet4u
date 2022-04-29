@@ -9,6 +9,8 @@ import {Component, Input, OnInit, ViewEncapsulation} from '@angular/core';
 export class BlocHomeComponent implements OnInit {
   @Input() titreEntree:string = "";
 
+
+
   titreEntreeEnfant1= "Un cocon  ";
   titreEntreeEnfant2 = "de bienveillance pour";
   titreEntreeEnfant3 = " les enfant";

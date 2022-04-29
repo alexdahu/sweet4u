@@ -1,7 +1,7 @@
 
 
 <button type="button" aria-label="ouverture menu burger" class="btn-burger btn" (click)="onClickButtonToggle()"><img src="../../assets/images/svg/menu-burger.svg" alt=""></button>
-<nav app-burger-menu [class]="burgerClasses"  (classEmitter)="receiveClass('menuBurger')" ></nav><!--*ngIf="openCloseBurgerMenu"-->
+<nav app-burger-menu [class]="burgerClasses"   (classEmitter)="receiveClass('menuBurger')" ></nav>
 <a [routerLink]="['/home']">
   <figure class="headerMain__logo">
     <img [src]="logoImg" alt="logo de la crèche sweet4u" loading="lazy">

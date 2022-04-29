@@ -4,3 +4,17 @@
 *
 **/
 
+/*+
+ *  Font-face
+ * __________________________________________________
+ */
+
+@mixin font-face($name, $filename, $weight, $style) {
+  $path: "../assets/fonts/#{$filename}";
+  @font-face {
+    font-family: $name;
+    src: url('#{$path}.woff') format('woff');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}

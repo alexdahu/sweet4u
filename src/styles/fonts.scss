@@ -1,0 +1,75 @@
+/******
+*
+*
+********************Fonts pour le sites
+*
+*******/
+
+
+
+@font-face {
+  font-family: 'sunshine_daisies_halftoneone';
+  src: local("sunshine_daisies_halftoneone"),url("../assets/fonts/sdsans-halftoneone.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//@include font-face(sunshine_daisies_halftoneone,sdsans-halftoneone, 400, normal);
+
+@font-face {
+  font-family: 'banana_chip_mufflins';
+  src: local("banana_chip_mufflins"),url("../assets/fonts/banana_chip_mufflins.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'quicksand-regular';
+  src: local("quicksand-regular"), url("../assets/fonts/quicksand-regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'quicksand-bold';
+  src: local("quicksand-bold"), url("../assets/fonts/quicksand-bold.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sunshine_daisies_outline';
+  src: local("sunshine_daisies_outline"), url("../assets/fonts/sdextras-outline.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sunshine_daisies_condensed';
+  src: local("sunshine_daisies_condensed"), url("../assets/fonts/sdsans-condensed.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'sunshine_daisies_one';
+  src: local("sunshine_daisies_one"), url("../assets/fonts/sdsans-one.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sunshine_daisies_stripesone';
+  src: local("sunshine_daisies_stripesone"), url("../assets/fonts/sdsans-stripesone.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'tuesday-script-regular';
+  src: local("tuesday-script-regular"), url("../assets/fonts/tuesday-script-regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
